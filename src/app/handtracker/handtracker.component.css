@@ -1,0 +1,41 @@
+
+.videobox{
+    border: none;
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.buttons{
+    position: absolute;
+    top: 90%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -90%);
+    
+
+}
+
+button{
+
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+body{
+    height: 300px;
+    /* background-size:contain; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+    /* background-image: url("boxing.png"); */
+}
